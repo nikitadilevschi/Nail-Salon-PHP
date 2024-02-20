@@ -1,0 +1,51 @@
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
+
+.carousel-item {
+    height: 40vh;
+    
+    /* Aista cu min-height unica ce trebuie de schimbat */
+    min-height: 650px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item {
+        height: 40vh;
+        background-size: cover;
+    }
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+
+
+
+
+
+
+.navbar.navbar-expand-lg.navbar-light li a{
+color:blue;}
+.navbar.navbar-expand-lg.navbar-light li a:hover{
+color:green;}
+.navbar.navbar-expand-lg.navbar-light li a:active{
+color:pink;}
+
+
+
